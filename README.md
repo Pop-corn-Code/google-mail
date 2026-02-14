@@ -58,7 +58,7 @@ Pour des raisons de sécurité, Google bloque les connexions SMTP directes avec 
 
 Modifiez ces lignes dans votre fichier `.env` pour activer l'envoi d'emails :
     
-    ```bash
+```bash
      MAIL_MAILER=smtp
      MAIL_HOST=smtp.gmail.com
      MAIL_PORT=465
