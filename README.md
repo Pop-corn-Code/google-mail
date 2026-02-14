@@ -57,15 +57,16 @@ Pour des raisons de sécurité, Google bloque les connexions SMTP directes avec 
 ## 📧 Configuration du fichier `.env`
 
 Modifiez ces lignes dans votre fichier `.env` pour activer l'envoi d'emails :
-```bash
-   MAIL_MAILER=smtp
-   MAIL_HOST=smtp.gmail.com
-   MAIL_PORT=465
-   MAIL_USERNAME=votre-adresse@gmail.com
-   MAIL_PASSWORD=votre-code-16-caracteres-sans-espaces
-   MAIL_ENCRYPTION=ssl
-   MAIL_FROM_ADDRESS="votre-adresse@gmail.com"
-   MAIL_FROM_NAME="${APP_NAME}"
+    
+    ```bash
+     MAIL_MAILER=smtp
+     MAIL_HOST=smtp.gmail.com
+     MAIL_PORT=465
+     MAIL_USERNAME=votre-adresse@gmail.com
+     MAIL_PASSWORD=votre-code-16-caracteres-sans-espaces
+     MAIL_ENCRYPTION=ssl
+     MAIL_FROM_ADDRESS="votre-adresse@gmail.com"
+     MAIL_FROM_NAME="${APP_NAME}"
 
 
 > **Note :** Si vous préférez le port `587`, utilisez MAIL_ENCRYPTION=tls.
