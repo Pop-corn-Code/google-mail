@@ -1,6 +1,6 @@
 # 🚀 Envoi d'Emails avec Laravel & Gmail SMTP
 
-![Laravel](https://img.shields.io/badge/Laravel-11.x-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
+![Laravel](https://img.shields.io/badge/Laravel-12.x-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
 ![PHP](https://img.shields.io/badge/PHP-8.2%2B-777BB4?style=for-the-badge&logo=php&logoColor=white)
 
 Ce dépôt contient le code source complet du tutoriel YouTube sur l'intégration de Gmail comme serveur SMTP dans une application Laravel.
